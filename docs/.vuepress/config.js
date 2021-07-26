@@ -23,12 +23,35 @@ module.exports = {
             }
     },
     plugins: [
-        [
+        [//看板娘
           "@vuepress-reco/vuepress-plugin-kan-ban-niang",
           {
             theme: ["koharu"],
             clean: true,
           }
+        ],
+        [//彩条子
+            'reading-progress'
+        ],
+        [
+            "@vuepress-reco/vuepress-plugin-bgm-player",{
+              audios: [
+                {
+                  name: '宝贝',
+                  artist: 'Menson',
+                  url: '/assets/radio//baby.mp3',
+                  cover: '/assets/img//lkqh.jpg'
+                },
+              ]  
+            }
+          ],
+        [
+        "vuepress-plugin-cursor-effects",
+        {
+            size: 2,                    // size of the particle, default: 2
+            shape: 'circle',  // shape of the particle, default: 'star'
+            zIndex: 999999999           // z-index property of the canvas, default: 999999999
+        }
         ],
     ]
       
