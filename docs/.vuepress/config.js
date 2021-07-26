@@ -10,7 +10,7 @@ module.exports = {
         lastUpdated: '更新时间', 
         logo: '/assets/img/logo.png',
         nav: [
-                { text: '主页', link: 'https://dadd7.com' },
+                { text: '主页', link: 'https://www.dadd7.com/' },
                 {
                     text: 'Languages',
                     ariaLabel: 'Language Menu',
