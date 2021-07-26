@@ -1,16 +1,16 @@
 ---
 home: true
 # heroImage: /hero.png
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
+heroText: 小网站
+tagline: 一个无聊的小网站
+# actionText: 快速上手 →
 actionLink: /zh/guide/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: 简介
+  details: 这是一个网站，暂时不知道该写些什么。
+- title: 问题
+  details: 我都备案了，网站还是显示为不安全网站，貌似要搞SSL认证，但这也太贵了吧。
+- title: 奥运实况
+  details: 连续两天早中晚三次义勇军进行曲，日本人应该学会了吧
+footer: 豫ICP备2021019604号
 ---
