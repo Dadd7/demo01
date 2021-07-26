@@ -10,15 +10,8 @@ module.exports = {
         lastUpdated: '更新时间', 
         logo: '/assets/img/logo.png',
         nav: [
-                { text: '主页', link: 'https://www.dadd7.com/' },
-                {
-                    text: 'Languages',
-                    ariaLabel: 'Language Menu',
-                    items: [
-                    { text: 'Chinese', link: '/language/chinese/' },
-                    { text: 'Japanese', link: '/language/japanese/' }
-                    ]
-                }
+                { text: '主页', link: '/' },
+                { text: '笔记', link: '../myPages/about.md'}
             ],
     },
     plugins: [
@@ -29,6 +22,17 @@ module.exports = {
             clean: true,
           }
         ],
+        [
+        "@vuepress-plugin-dynamic-title",
+        {
+        //   showIcon: "/assets/img//favicon.ico'",
+          showText: "(/≧▽≦/)咦！又好了！",
+        //   hideIcon: "/assets/img//favicon.ico'",
+          hideText: "(●—●)喔哟，崩溃啦！",
+          recoverTime: 2000
+        }
       ]
+    ]
       
   }
+  
