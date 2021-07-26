@@ -25,13 +25,7 @@ module.exports = {
                 "@vuepress-reco/vuepress-plugin-kan-ban-niang",
                 {
                 theme: ["blackCat"],
-                clean: false,
-                messages: {
-                    welcome: '我是lookroot欢迎你的关注 ',
-                    home: '心里的花，我想要带你回家。',
-                    theme: '好吧，希望你能喜欢我的其他小伙伴。',
-                    close: '再见哦'
-                }
+                clean: true,
                 }
             ],
             ]
