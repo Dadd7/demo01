@@ -20,15 +20,14 @@ module.exports = {
                     ]
                 }
             ],
-        plugins: [
-            [
-                "@vuepress-reco/vuepress-plugin-kan-ban-niang",
-                {
-                theme: ["blackCat"],
-                clean: true,
-                }
-            ],
-            ]
-              
     },
+    plugins: [
+    [
+        "@vuepress-reco/vuepress-plugin-kan-ban-niang",
+        {
+        theme: ["blackCat"],
+        clean: true,
+        }
+    ],
+    ]
   }
