@@ -11,8 +11,8 @@ module.exports = {
         logo: '/assets/img/logo.png',
         nav: [
                 { text: '主页', link: '/' },
-                { text: '日记', link: '../myPages/myDiary/2023.md'},
-                { text: '玩意', link: '../myPages/myProject/demo.md'}
+                { text: '日记', link: '/myPages/myDiary/2023.md'},
+                { text: '玩意', link: '/myPages/myProject/demo.md'}
             ],
         sidebar: {
             '/myPages/myDiary/': [
