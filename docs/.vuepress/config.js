@@ -69,6 +69,12 @@ module.exports = {
             // recoverTime: 2000
           }
         ]
+        [
+          '@vuepress/google-analytics',
+          {
+            'ga': 'G-W6NNJ0Q5WN' // UA-00000000-0
+          }
+        ]
     ]
       
   }

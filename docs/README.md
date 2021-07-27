@@ -12,4 +12,5 @@ actionLink: /myPages/myProject/demo.md
 #   details: 我都备案了，网站还是显示为不安全网站，貌似要搞SSL认证，但这也太贵了吧。
 # - title: 奥运实况
 #   details: 连续两天早中晚三次义勇军进行曲，日本人应该学会了吧
+footer: © 2021-2021 | 豫ICP备2021019604号
 ---
