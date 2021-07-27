@@ -28,6 +28,11 @@ module.exports = {
           {
             theme: ["koharu"],
             clean: true,
+            modelStyle:{
+              right: '60px', 
+              bottom: '-20px', 
+              opacity: '1' 
+            }
           }
         ],
         [//彩条子
@@ -42,7 +47,7 @@ module.exports = {
                   url: '/assets/radio//baby.mp3',
                   cover: '/assets/img//lkqh.jpg'
                 },
-              ]  
+              ],  
             }
           ],
         [
@@ -53,6 +58,17 @@ module.exports = {
             zIndex: 999999999           // z-index property of the canvas, default: 999999999
         }
         ],
+        ['go-top'],
+        [
+          "dynamic-title",
+          {
+            showIcon: "/assets/img//success.jpg",
+            showText: "(●'◡'●)/ﾞ嘿嘿嘿欢迎来到",
+            hideIcon: "/assets/img//failure.jpg",
+            hideText: "(ㄒAㄒ)/ﾞ大帅批不要走哇",
+            // recoverTime: 2000
+          }
+        ]
     ]
       
   }
