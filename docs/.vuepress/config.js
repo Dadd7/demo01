@@ -5,9 +5,10 @@ module.exports = {
         ['link',{rel:'icon',href:'/assets/img//favicon.ico'}],
         ['meta',{name:'author',content:'Dadd7'}],
         ['meta',{name:'keywords',content:'无聊，小网站'}],
+        ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}],
     ],
     themeConfig: {
-        lastUpdated: '更新时间', 
+        // lastUpdated: '更新时间', 
         logo: '/assets/img/logo.png',
         nav: [
                 { text: '主页', link: '/' },
@@ -68,13 +69,7 @@ module.exports = {
             hideText: "(ㄒAㄒ)/ﾞ大帅批不要走哇",
             // recoverTime: 2000
           }
-        ]
-        [
-          '@vuepress/google-analytics',
-          {
-            'ga': 'G-W6NNJ0Q5WN' // UA-00000000-0
-          }
-        ]
+        ],
     ]
       
   }
