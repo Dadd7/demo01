@@ -13,7 +13,12 @@ module.exports = {
         nav: [
                 { text: '主页', link: '/' },
                 { text: '日记', link: '/myPages/myDiary/2023.md'},
-                { text: '玩意', link: '/myPages/myProject/demo.md'}
+                { text: '玩意', 
+                  items: [
+                    { text: '音乐盒', link: '/myPages/myProject/demo01-musicBox.md' },
+                    { text: '七音琴', link: '/myPages/myProject/demo02-piano.md' }
+                  ],
+                }
             ],
         sidebar: {
             '/myPages/myDiary/': [

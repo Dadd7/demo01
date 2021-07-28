@@ -17,12 +17,12 @@
         },
         methods:{
             change(){
-                var audio = document.getElementById('audio');
+                var audio = document.getElementById('audio')
                 if (audio.paused) {
-                    audio.play();
+                    audio.play()
                     this.index=1
                 }else{
-                    audio.pause();
+                    audio.pause()
                     this.index=0
                 }
             }
