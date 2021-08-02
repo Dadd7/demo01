@@ -4,7 +4,7 @@ heroImage: /assets/img/logo.png
 heroText: 小网站
 tagline: 一个无聊的小网站
 actionText: 点击通往不到玩意
-# actionLink: /myPages/myProject/demo.md
+actionLink: /
 # features:
 # - title: 简介
 #   details: 这是一个网站，暂时不知道该写些什么。

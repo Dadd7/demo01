@@ -16,7 +16,8 @@ module.exports = {
                 { text: '玩意', 
                   items: [
                     { text: '音乐盒', link: '/myPages/myProject/demo01-musicBox.md' },
-                    { text: '七音琴', link: '/myPages/myProject/demo02-piano.md' }
+                    { text: '七音琴', link: '/myPages/myProject/demo02-piano.md' },
+                    { text: '游戏机', link: '/myPages/myProject/demo03-dogGame.md' },
                   ],
                 }
             ],
