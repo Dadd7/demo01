@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{580:function(t,n,s){"use strict";s.r(n);var e=s(5),r=Object(e.a)({},(function(){var t=this.$createElement,n=this._self._c||t;return n("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[n("p",[this._v("2022暂时未到"),n("br"),this._v("\n提前祝你虎年快乐")])])}),[],!1,null,null,null);n.default=r.exports}}]);
